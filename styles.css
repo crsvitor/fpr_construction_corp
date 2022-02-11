@@ -1,0 +1,314 @@
+@media (min-width: 771px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1 {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 30px;
+  }
+
+  header {
+    background-color: #2C322E;
+    height: 90px;
+  }
+  header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  header .wrapper #logo {
+    display: flex;
+    align-items: center;
+  }
+  header .wrapper #logo img {
+    height: 95px;
+    margin-left: 20px;
+  }
+  header .wrapper #logo h3 {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+  header .wrapper nav {
+    margin-right: 35px;
+  }
+  header .wrapper nav a {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+  }
+  header .wrapper nav a:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  header .wrapper nav a + a {
+    margin-left: 14px;
+  }
+  header .wrapper .icon {
+    display: none;
+  }
+  header .wrapper a#trigger {
+    display: none;
+  }
+
+  section#banner {
+    width: 100%;
+    height: 356px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url("./images/background_image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  section#banner h1 {
+    max-width: 980px;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 8px;
+  }
+  section#banner .color-overlay {
+    width: 100%;
+    height: 100%;
+    background: #0e1310;
+    opacity: 0.8;
+    position: absolute;
+  }
+
+  main section#upside-points {
+    background-color: #2C322E;
+  }
+  main section#upside-points .wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  main section#upside-points .wrapper .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 8px;
+  }
+  main section#upside-points .wrapper .text i {
+    font-size: 48px;
+    margin-bottom: 4px;
+  }
+  main section#upside-points .wrapper .text p {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+
+  main section#services {
+    height: 100%;
+    background-color: #e7e7e7;
+  }
+  main section#services .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  main section#services .wrapper .text {
+    max-width: 980px;
+    text-align: center;
+  }
+  main section#services .wrapper .text h1 {
+    color: #2C322E;
+  }
+  main section#services .wrapper .text p {
+    margin: 32px;
+    margin-top: 0;
+  }
+  main section#services .wrapper .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  main section#services .wrapper .cards .card {
+    /** aaaaaaaaaaa */
+    flex: 1 0 24.333333%;
+    width: 235px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+    -webkit-box-shadow: 0px 0px 15px -9px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 15px -9px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 12px;
+    padding-bottom: 10px;
+  }
+  main section#services .wrapper .cards .card img {
+    width: 150px;
+    margin: 12px 0;
+    border-radius: 50%;
+  }
+  main section#services .wrapper .cards .card h1, main section#services .wrapper .cards .card p {
+    margin: 16px;
+    text-align: center;
+  }
+
+  main section#contact-us {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: flex-start;
+    background-image: url("./images/dumpsters_rental.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  main section#contact-us .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  main section#contact-us .wrapper h1 {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 30px;
+  }
+  main section#contact-us .wrapper .responsible-info {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 550px;
+  }
+  main section#contact-us .wrapper .responsible-info h1, main section#contact-us .wrapper .responsible-info h3, main section#contact-us .wrapper .responsible-info p, main section#contact-us .wrapper .responsible-info i {
+    color: rgba(255, 255, 255, 0.85);
+  }
+  main section#contact-us .wrapper .responsible-info .personal-presentation {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 40px;
+  }
+  main section#contact-us .wrapper .responsible-info .personal-presentation img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  main section#contact-us .wrapper .responsible-info .personal-presentation p {
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+    text-align: center;
+    max-width: 350px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards {
+    margin-top: -40px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards h6 {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 4px solid rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a {
+    text-decoration: none;
+    display: flex;
+    padding: 12px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a > p {
+    padding-right: 6px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a > p > i {
+    padding: 6px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a:hover p, main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a:hover i {
+    color: #afafaf;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card:hover {
+    border-color: #afafaf;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card + .contact-card {
+    margin-top: 22px;
+  }
+  main section#contact-us .color-overlay {
+    width: 100%;
+    height: 100%;
+    background: #0e1310;
+    opacity: 0.8;
+    position: absolute;
+  }
+
+  main section#map-area {
+    background-color: #232724;
+    display: flex;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  main section#map-area #map {
+    height: 350px;
+    width: 50%;
+  }
+  main section#map-area div h3 {
+    max-width: 640px;
+    margin: 32px;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  footer {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer h6 {
+    color: rgba(255, 255, 255, 0.85);
+    opacity: 0.85;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  footer h6 a {
+    color: rgba(255, 255, 255, 0.85);
+    opacity: 0.95;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png" sizes="196x196" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="media_queries.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <title>FPR Corporation Group</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div id="logo">
+                <img id="logo" src="./images/logo1.svg" alt="" srcset="">
+                <h3>FPR Corporation Group</h3>
+            </div>
+            <div>
+                <nav id="links" class="">
+                    <a id="a-services" href="#services">Services</a>
+                    <a id="a-contact-us" href="#contact-us">Contact</a>
+                </nav>
+                <a class="icon" onclick="menu()">
+                    <i class="material-icons">menu</i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <h1>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna. Nunc ut lorem sed risus fringilla ullamcorper.
+        </h1>
+        <div class="color-overlay"></div>
+    </section>
+
+    
+
+    <main>
+        <!-- 
+        <section id="services">
+            <div class="title">
+                <h1>Our services</h1>
+            </div>
+            
+            <div class="row">
+                <div class="card">
+                    <img src="/images/landing_clearing.png" alt="">
+                    <div class="text">
+                        <h3>Field Clearing</h3>
+                        <h6>Vacant lot cleaning and leveling with or without material. Remove all debris.</h6>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="./images/rental_dumpster_1.png" alt="rental dumpsters image">
+                    <div class="text">
+                        <h3>Dumpsters Rental Residential and Commercial</h3>
+                        <h6>Dumpsters sizes 10 to 20 yards . A Roll Off dumpster is a perfect solution to any Kind of situation where you have an excess of debris. This can range from an garage clean out to a large scale building demolition.</h6>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="row">
+                <div class="card">
+                    <img src="./images/excavation.png" alt="field excavation image">
+                    <div class="text">
+                        <h3>Excavation</h3>
+                        <h6>Pool, septic tank and drain field, plumbing commercial or residential, any excavation Under constructions can do.</h6>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./images/delivering_or_removing.png" alt="dumpster delivering material image">
+                    <div class="text">
+                        <h3>Delivering or Removing Material</h3>
+                        <h6>Under Construction can pick up any material such as base (crushed concrete), dirt, rock and delivery to you wherever you need or we can go and pick it up whatever is left on your site job.</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                    <img src="./images/residential_demolition_img.png" alt="residential demolition image">
+                    <div class="text">
+                        <h3>Demolition Residential</h3>
+                        <h6>Mobile Home Demolition, Modular Home Demolition, Trailer Demolition, Garage, Sheld and Pool haul off.</h6>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/concretal_removal.png" alt="residential demolition image">
+                    <div class="text">
+                        <h3>Concrete Removal</h3>
+                        <h6>If you have a side walk or any concrete that needs to be removed, Under Construction Corp will do it and haul away. We remove without demage your surroundings.</h6>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section> 
+    -->
+        
+        <section id="upside-points">
+            <div class="wrapper">
+                <div class="text">
+                    <i class="material-icons">check_circle</i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus.
+                    </p>
+                </div>
+                <div class="text">
+                    <i class="material-icons">check_circle</i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus.
+                    </p>
+                </div>
+                <div class="text">
+                    <i class="material-icons">check_circle</i>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <div class="wrapper">
+                <div class="text">
+                    <h1>Our services</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna. Nunc ut lorem sed risus fringilla ullamcorper. 
+                        Ut posuere sodales nisi ut pretium. Pellentesque ut libero finibus elit malesuada molestie.
+                    </p>
+                </div>
+                <div class="cards">
+                    
+                    <div class="card">
+                        <img src="/images/landing_clearing.png" alt="landing being clearing image">
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna.
+                        </p>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./images/rental_dumpster_1.png" alt="rental dumpsters image">
+                        <h2>Dumpsters rental</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/excavation.png" alt="field excavation image">
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna.
+                        </p>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./images/delivering_or_removing.png" alt="dumpster delivering material image">
+                        <h2>Reliable junk removal</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/residential_demolition_img.png" alt="residential demolition image">
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/concretal_removal.png" alt="residential demolition image">
+                        <h2>Lorem Ipsum Dolor</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia nunc id euismod finibus. Suspendisse mauris lorem, ullamcorper vel tempor in, viverra ut urna.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="contact-us">
+            <div id="responsible">
+                <img src="" alt="" srcset="">
+                <div class="text">
+                    <h3>Fabio</h3>
+                    <h6>I am Fabio! Contact me!</h6>
+                </div>
+            </div>
+
+            <div class="color-overlay"></div>
+        </section> -->
+
+        <section id="contact-us">
+            <div class="wrapper">
+                <h1>Contact & About us</h1>
+                <div class="responsible-info">
+                    <div class="personal-presentation">
+                        <img src="./images/fabio.png" alt="Fabio responsible for FPR Construction" srcset="">
+                        <div class="texts">
+                            <h3>Fabio Luiz</h3>
+                            <p>Fabio is the one responsible for FPR Corporation, with great years of experience, he and his team will surely help you.</p>
+                        </div>
+                    </div>
+                    <div class="contact-cards">
+
+                        <div class="contact-card">
+                            <a href="tel:+(321) 343-1609">
+                                <p><i class="material-icons">call</i>Phone:</p>
+                                <p>(321) 343-1609</p>
+                            </a>
+                        </div>
+                        <div class="contact-card">
+                            <a id="second" href="mailto:fabio@underconstructioncorp.com">
+                                <p><i class="material-icons">email</i> Email:</p>
+                                <p id="second">fabio@underconstructioncorp.com</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="color-overlay"></div>
+        </section>
+
+        <section id="map-area">
+            <div id="map"></div>
+            <div>
+                <h1>Office Location</h1>
+                <h3>We are located at 2121 South Hiawassee Rd. Unit 130 Orlando, Florida.</h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h6>FPR Corporation Group | Developed By <a href="http://www.linkedin.com/in/crsvitor/?locale=en_US" target="_blank" rel="noopener noreferrer" alt="Developer link">Vitor de Castro</a></h6>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <script>
+        const btn = document.getElementById("links");
+        const menu = () => {
+            btn.classList.toggle("active")
+        };
+
+        const servicesLink = document.getElementById("a-services");
+        const contactUsLink = document.getElementById("a-contact-us");
+
+        servicesLink.addEventListener("click", () => {
+            btn.classList.remove("active")
+        });
+
+        contactUsLink.addEventListener("click", () => {
+            btn.classList.remove("active")
+        });
+
+        
+        const map = L.map('map').setView([28.517645660514034, -81.47861908194164], 17);
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1Ijoidml0b3IxODA2IiwiYSI6ImNremMyY3U4dDFtZHgycG1tbnpkdHE0eXQifQ.y4AFDIX02baymKPoOXdZgQ'
+        }).addTo(map);
+        const marker = L.marker([28.517645660514034, -81.47861908194164]).addTo(map);
+    </script>
+</body>
+</html>
