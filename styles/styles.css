@@ -65,7 +65,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url("./images/background_image.png");
+    background-image: url("../images/background_image.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -171,7 +171,7 @@
     height: 550px;
     display: flex;
     align-items: flex-start;
-    background-image: url("./images/dumpsters_rental.jpeg");
+    background-image: url("../images/dumpsters_rental.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
