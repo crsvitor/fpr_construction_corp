@@ -224,7 +224,7 @@
     max-width: 350px;
   }
   main section#contact-us .wrapper .responsible-info .contact-cards {
-    margin-top: -40px;
+    margin-top: 16px;
   }
   main section#contact-us .wrapper .responsible-info .contact-cards h6 {
     color: rgba(255, 255, 255, 0.85);
@@ -256,6 +256,12 @@
   }
   main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a > p > i {
     padding: 6px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a > p img {
+    width: 32px;
+    background-color: white;
+    border-radius: 16px;
+    margin-right: 6px;
   }
   main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a:hover p, main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a:hover i {
     color: #afafaf;

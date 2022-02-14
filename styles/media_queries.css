@@ -184,7 +184,7 @@
 }
 @media (max-width: 770px) {
   main section#contact-us {
-    height: 500px;
+    height: 580px;
     display: flex;
     align-items: flex-start;
     background-image: url("../images/dumpsters_rental.jpeg");
@@ -293,6 +293,12 @@
   }
   main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a > p > i {
     padding: 6px;
+  }
+  main section#contact-us .wrapper .responsible-info .contact-cards .contact-card a > p img {
+    width: 32px;
+    background-color: white;
+    border-radius: 16px;
+    margin-right: 6px;
   }
 }
 @media (max-width: 770px) {
